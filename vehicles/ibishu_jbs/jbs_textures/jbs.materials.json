@@ -1,0 +1,895 @@
+{
+  "jbs_glass": {
+    "name": "jbs_glass",
+    "mapTo": "jbs_glass",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/ibishu_jbs/jbs_textures/jbs_glass_b.color.png",
+        "metallicFactor": 0.9,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_nm.normal.png",
+        "opacityMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_o.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 1,
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "jbs_glass_int": {
+    "name": "jbs_glass_int",
+    "mapTo": "jbs_glass_int",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/ibishu_jbs/jbs_textures/jbs_glass_b.color.png",
+        "metallicFactor": 0.9,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_nm.normal.png",
+        "opacityMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_o.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 1,
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 180,
+    "alphaTest": true,
+    "castShadows": false,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "jbs_gauges_odo": {
+    "name": "jbs_gauges_odo",
+    "mapTo": "jbs_gauges_odo",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/odometer_analog_ao.data.png",
+        "ambientOcclusionMapUseUV": 1,
+        "baseColorMap": "@jbs_gauges_odo",
+        "diffuseMapUseUV": 1,
+        "metallicMapUseUV": 1,
+        "normalMap": "/vehicles/common/odometer_analog_nm.normal.png",
+        "normalMapUseUV": 1,
+        "roughnessMap": "/vehicles/common/odometer_analog_r.data.png",
+        "roughnessMapUseUV": 1
+      },
+      {},
+      {},
+      {}
+    ],
+    "version": 1.5
+  },
+  "jbs_glass_dmg": {
+    "name": "jbs_glass_dmg",
+    "mapTo": "jbs_glass_dmg",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/ibishu_jbs/jbs_textures/jbs_glass_dmg_b.color.png",
+        "metallicFactor": 0.9,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_dmg_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_dmg_nm.normal.png",
+        "opacityMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_dmg_o.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 1,
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_dmg_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 20,
+    "alphaTest": true,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "jbs_glass_on": {
+    "name": "jbs_glass_on",
+    "mapTo": "jbs_glass_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/ibishu_jbs/jbs_textures/jbs_glass_b.color.png",
+        "emissiveFactor": [
+          2,
+          2,
+          2
+        ],
+        "emissiveMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_g.color.png",
+        "metallicFactor": 0.9,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_nm.normal.png",
+        "opacityMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_o.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 1,
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "jbs_glass_on_intense": {
+    "name": "jbs_glass_on_intense",
+    "mapTo": "jbs_glass_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/ibishu_jbs/jbs_textures/jbs_glass_b.color.png",
+        "emissiveFactor": [
+          3,
+          3,
+          3
+        ],
+        "emissiveMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_intense_g.color.png",
+        "metallicFactor": 0.9,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_nm.normal.png",
+        "opacityMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_o.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 1,
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "jbs_windshield_dmg": {
+    "name": "jbs_windshield_dmg",
+    "mapTo": "jbs_windshield_dmg",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/ibishu_jbs/jbs_textures/jbs_glass_dmg_b.color.png",
+        "metallicFactor": 0.9,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_dmg_m.data.png",
+        "normalMap": "vehicles/common/windshield_dmg_n.dds",
+        "opacityMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_dmg_o.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 1,
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_glass_dmg_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "jbs_lettering": {
+    "name": "jbs_lettering",
+    "mapTo": "jbs_lettering",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lettering_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lettering_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lettering_nm.normal.png",
+        "opacityMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lettering_o.data.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lettering_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 149,
+    "alphaTest": true,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "materialTag2": "decal",
+    "version": 1.5
+  },
+  "jbs_gauges": {
+    "name": "jbs_gauges",
+    "mapTo": "jbs_gauges",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_ao.data.png",
+        "baseColorMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_nm.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "jbs_gauges_on": {
+    "name": "jbs_gauges_on",
+    "mapTo": "jbs_gauges_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_ao.data.png",
+        "baseColorMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_nm.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_r.data.png",
+        "emissiveMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_g.color.png",
+        "emissiveFactor": [
+          3,
+          3,
+          3
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "jbs_gauges_metric": {
+    "name": "jbs_gauges_metric",
+    "mapTo": "jbs_gauges_metric",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_ao.data.png",
+        "baseColorMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_metric_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_metric_nm.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_metric_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "jbs_gauges_metric_on": {
+    "name": "jbs_gauges_metric_on",
+    "mapTo": "jbs_gauges_metric_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_ao.data.png",
+        "baseColorMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_metric_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_metric_nm.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_metric_r.data.png",
+        "emissiveMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_gauges_metric_g.color.png",
+        "emissiveFactor": [
+          3,
+          3,
+          3
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "jbs_lights": {
+    "name": "jbs_lights",
+    "mapTo": "jbs_lights",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_ao.data.png",
+        "baseColorMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_nm.normal.png",
+        "roughnessFactor": 1,
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "jbs_lights_dmg": {
+    "name": "jbs_lights_dmg",
+    "mapTo": "jbs_lights_dmg",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_ao.data.png",
+        "baseColorMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_dmg_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_dmg_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_dmg_nm.normal.png",
+        "roughnessFactor": 1,
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_dmg_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "jbs_lights_on": {
+    "name": "jbs_lights_on",
+    "mapTo": "jbs_lights_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_ao.data.png",
+        "baseColorMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_b.color.png",
+        "emissiveFactor": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "emissiveMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_g.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_nm.normal.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 1,
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "jbs_lights_on_intense": {
+    "name": "jbs_lights_on_intense",
+    "mapTo": "jbs_lights_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_ao.data.png",
+        "baseColorMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_b.color.png",
+        "emissiveFactor": [
+          2,
+          2,
+          2
+        ],
+        "emissiveMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_intense_g.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_nm.normal.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 1,
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_lights_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "jbs_interior": {
+    "name": "jbs_interior",
+    "mapTo": "jbs_interior",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_interior_ao.data.png",
+        "baseColorMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_interior_b.color.png",
+        "clearCoatRoughnessFactor": 0,
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_interior_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_interior_nm.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_interior_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  },
+  "jbs_interior_stripped": {
+    "name": "jbs_interior_stripped",
+    "mapTo": "jbs_interior_stripped",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_interior_stripped_ao.data.png",
+        "baseColorMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_interior_stripped_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_interior_stripped_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_interior_stripped_nm.normal.png",
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_interior_stripped_r.data.png"
+      },
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_interior_stripped_ao.data.png",
+        "clearCoatFactor": 1,
+        "clearCoatMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_interior_stripped_cc.data.png",
+        "colorPaletteMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_main_p.color.png",
+        "colorPaletteMapUseUV": 0,
+        "instanceDiffuse": true,
+        "metallicFactor": 1,
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_interior_stripped_nm.normal.png",
+        "opacityMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_interior_stripped_c.data.png"
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  },
+  "jbs_main": {
+    "name": "jbs_main",
+    "mapTo": "jbs_main",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_main_ao.data.png",
+        "baseColorMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_main_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_main_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_main_nm.normal.png",
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_main_r.data.png"
+      },
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_main_ao.data.png",
+        "clearCoatFactor": 1,
+        "clearCoatMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_main_cc.data.png",
+        "colorPaletteMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_main_p.color.png",
+        "colorPaletteMapUseUV": 0,
+        "instanceDiffuse": true,
+        "metallicFactor": 1,
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_main_nm.normal.png",
+        "opacityMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_main_c.data.png"
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  },
+  "jbs_aftermarket": {
+    "name": "jbs_aftermarket",
+    "mapTo": "jbs_aftermarket",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_aftermarket_ao.data.png",
+        "baseColorMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_aftermarket_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_aftermarket_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_aftermarket_nm.normal.png",
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_aftermarket_r.data.png"
+      },
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_aftermarket_ao.data.png",
+        "clearCoatFactor": 1,
+        "clearCoatMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_aftermarket_cc.data.png",
+        "colorPaletteMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_main_p.color.png",
+        "colorPaletteMapUseUV": 0,
+        "instanceDiffuse": true,
+        "metallicFactor": 1,
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_aftermarket_nm.normal.png",
+        "opacityMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_aftermarket_c.data.png"
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  },
+  "jbs_mechanicals": {
+    "name": "jbs_mechanicals",
+    "mapTo": "jbs_mechanicals",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_mechanicals_ao.data.png",
+        "baseColorMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_mechanicals_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_mechanicals_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_mechanicals_nm.normal.png",
+        "roughnessMap": "/vehicles/ibishu_jbs/jbs_textures/jbs_mechanicals_r.data.png"
+      },
+      {
+        "metallicFactor": null
+      },
+      {
+        "metallicFactor": null
+      },
+      {
+        "metallicFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "jbs_taillight": {
+    "name": "jbs_taillight",
+    "mapTo": "jbs_taillight",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_taillightglass": {
+    "name": "jbs_taillightglass",
+    "mapTo": "jbs_taillightglass",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_signal_R": {
+    "name": "jbs_signal_R",
+    "mapTo": "jbs_signal_R",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_signalglass_R": {
+    "name": "jbs_signalglass_R",
+    "mapTo": "jbs_signalglass_R",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_signal_L": {
+    "name": "jbs_signal_L",
+    "mapTo": "jbs_signal_L",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_signalglass_L": {
+    "name": "jbs_signalglass_L",
+    "mapTo": "jbs_signalglass_L",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_headlight": {
+    "name": "jbs_headlight",
+    "mapTo": "jbs_headlight",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_headlightglass": {
+    "name": "jbs_headlightglass",
+    "mapTo": "jbs_headlightglass",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_brakelightglass": {
+    "name": "jbs_brakelightglass",
+    "mapTo": "jbs_brakelightglass",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_brakelight": {
+    "name": "jbs_brakelight",
+    "mapTo": "jbs_brakelight",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_chmsl": {
+    "name": "jbs_chmsl",
+    "mapTo": "jbs_chmsl",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_chmslglass": {
+    "name": "jbs_chmslglass",
+    "mapTo": "jbs_chmslglass",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_reverselight": {
+    "name": "jbs_reverselight",
+    "mapTo": "jbs_reverselight",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_reverselightglass": {
+    "name": "jbs_reverselightglass",
+    "mapTo": "jbs_reverselightglass",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_parkinglight": {
+    "name": "jbs_parkinglight",
+    "mapTo": "jbs_parkinglight",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_parkinglightglass": {
+    "name": "jbs_parkinglightglass",
+    "mapTo": "jbs_parkinglightglass",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_marker_L": {
+    "name": "jbs_marker_L",
+    "mapTo": "jbs_marker_L",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_marker_R": {
+    "name": "jbs_marker_R",
+    "mapTo": "jbs_marker_R",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_markerglass_L": {
+    "name": "jbs_markerglass_L",
+    "mapTo": "jbs_markerglass_L",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_markerglass_R": {
+    "name": "jbs_markerglass_R",
+    "mapTo": "jbs_markerglass_R",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_chrome": {
+    "name": "jbs_chrome",
+    "mapTo": "jbs_chrome",
+    "class": "Material",
+    "Stages": [
+      {
+        "metallicFactor": 1,
+        "pixelSpecular": true,
+        "roughnessFactor": 0.439999998
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  },
+  "jbs_taillight_L": {
+    "name": "jbs_taillight_L",
+    "mapTo": "jbs_taillight_L",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_taillight_R": {
+    "name": "jbs_taillight_R",
+    "mapTo": "jbs_taillight_R",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "jbs_trunklight": {
+    "name": "jbs_trunklight",
+    "mapTo": "jbs_trunklight",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  }
+}

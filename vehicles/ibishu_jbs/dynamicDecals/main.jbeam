@@ -1,0 +1,13 @@
+{
+"jbs_skin_dynamicTextures": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Dynamic Textures",
+        "isAuxiliary": true,
+        "value":1350
+    },
+    "slotType" : "paint_design",
+    "dynDecalMaterials": ["jbs_main", "jbs_aftermarket"],
+    "globalSkin" : "dynamicTextures"
+  },
+}

@@ -1,0 +1,29 @@
+{
+  "jbs_driftgear_mechanicals": {
+    "name": "driftgear_mechanicals",
+    "mapTo": "driftgear_mechanicals",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/driftgear_mechanicals_susp/driftgear_mechanicals_ao.data.png",
+        "baseColorMap": "/vehicles/ibishu_jbs/driftgear_mechanicals_susp/driftgear_mechanicals_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/ibishu_jbs/driftgear_mechanicals_susp/driftgear_mechanicals_m.data.png",
+        "normalMap": "/vehicles/ibishu_jbs/driftgear_mechanicals_susp/driftgear_mechanicals_nm.normal.png",
+        "roughnessMap": "/vehicles/ibishu_jbs/driftgear_mechanicals_susp/driftgear_mechanicals_r.data.png"
+      },
+      {
+        "metallicFactor": null
+      },
+      {
+        "metallicFactor": null
+      },
+      {
+        "metallicFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  }
+}

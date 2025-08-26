@@ -1,0 +1,469 @@
+{
+  "ibishu_jbs_block": {
+    "name": "ibishu_jbs_block",
+    "mapTo": "ibishu_jbs_block",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/i6_textures/black_ao.png",
+        "baseColorFactor": [
+          0.375687003,
+          0.375687003,
+          0.375687003,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/black.png",
+        "metallicFactor": 0.5,
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/black_n.png",
+        "pixelSpecular": null,
+        "roughnessFactor": 0.545000017
+      },
+      {
+        "baseColorFactor": [
+          0.925960004,
+          0.925949991,
+          0.925949991,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/black.png",
+        "metallicFactor": null,
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/black_n.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0.474999994
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      }
+    ],
+    "doubleSided": true,
+    "subSurfacaae0": "0",
+    "version": 1.5
+  },
+  "ibishu_jbs_blue": {
+    "name": "ibishu_jbs_blue",
+    "mapTo": "ibishu_jbs_blue",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/i6_textures/null_ao.png",
+        "baseColorFactor": [
+          0.5804380179999999,
+          0.580431998,
+          0.580431998,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/blue.png",
+        "metallicFactor": 0.708000004,
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/null_n.png",
+        "roughnessFactor": 0.513000011
+      },
+      {
+        "baseColorFactor": [
+          0.925960004,
+          0.925949991,
+          0.925949991,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/blue.png",
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/null_n.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0.474999994
+      },
+      {},
+      {}
+    ],
+    "doubleSided": true,
+    "subSurfacaae0": "0",
+    "version": 1.5
+  },
+  "ibishu_jbs_carbon": {
+    "name": "ibishu_jbs_carbon",
+    "mapTo": "ibishu_jbs_carbon",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/i6_textures/null_ao.png",
+        "baseColorFactor": [
+          0.5804380179999999,
+          0.580431998,
+          0.580431998,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/carbon.png",
+        "metallicFactor": 0.708000004,
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/null_n.png",
+        "roughnessFactor": 1.1e-8
+      },
+      {
+        "baseColorFactor": [
+          0.925960004,
+          0.925949991,
+          0.925949991,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/carbon.png",
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/null_n.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0.00009994
+      },
+      {},
+      {}
+    ],
+    "doubleSided": true,
+    "subSurfacaae0": "0",
+    "version": 1.5
+  },
+  "ibishu_jbs_metal": {
+    "name": "ibishu_jbs_metal",
+    "mapTo": "ibishu_jbs_metal",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/i6_textures/null_ao.png",
+        "baseColorFactor": [
+          0.862537026,
+          0.862537026,
+          0.862537026,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/white.png",
+        "metallicFactor": 0.754999995,
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/null_n.png",
+        "pixelSpecular": null,
+        "roughnessFactor": 0.5
+      },
+      {
+        "baseColorFactor": [
+          0.925960004,
+          0.925949991,
+          0.925949991,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/white.png",
+        "metallicFactor": null,
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/null_n.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0.474999994
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      }
+    ],
+    "doubleSided": true,
+    "subSurfacaae0": "0",
+    "version": 1.5
+  },
+  "ibishu_jbs_noise": {
+    "name": "ibishu_jbs_noise",
+    "mapTo": "ibishu_jbs_noise",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/i6_textures/null_ao.png",
+        "baseColorFactor": [
+          0.5804380179999999,
+          0.580431998,
+          0.580431998,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/noise.png",
+        "metallicFactor": 0.708000004,
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/null_n.png",
+        "roughnessFactor": 0.513000011
+      },
+      {
+        "baseColorFactor": [
+          0.925960004,
+          0.925949991,
+          0.925949991,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/noise.png",
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/null_n.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0.474999994
+      },
+      {},
+      {}
+    ],
+    "doubleSided": true,
+    "subSurfacaae0": "0",
+    "version": 1.5
+  },
+  "ibishu_jbs_plastic": {
+    "name": "ibishu_jbs_plastic",
+    "mapTo": "ibishu_jbs_plastic",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/i6_textures/plastic_ao.png",
+        "baseColorFactor": [
+          0.5804380179999999,
+          0.580431998,
+          0.580431998,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/plastic.png",
+        "metallicFactor": 0.708000004,
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/plastic_n.png",
+        "roughnessFactor": 0.513000011
+      },
+      {
+        "baseColorFactor": [
+          0.925960004,
+          0.925949991,
+          0.925949991,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/plastic.png",
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/plastic_n.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0.474999994
+      },
+      {},
+      {}
+    ],
+    "doubleSided": true,
+    "subSurfacaae0": "0",
+    "version": 1.5
+  },
+  "ibishu_jbs_red": {
+    "name": "ibishu_jbs_red",
+    "mapTo": "ibishu_jbs_red",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/i6_textures/black_ao.png",
+        "baseColorFactor": [
+          0.5804380179999999,
+          0.580431998,
+          0.580431998,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/red.png",
+        "metallicFactor": 0.708000004,
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/black_n.png",
+        "roughnessFactor": 0.513000011
+      },
+      {
+        "baseColorFactor": [
+          0.925960004,
+          0.925949991,
+          0.925949991,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/red.png",
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/black_n.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0.474999994
+      },
+      {},
+      {}
+    ],
+    "doubleSided": true,
+    "subSurfacaae0": "0",
+    "version": 1.5
+  },
+  "ibishu_jbs_sery": {
+    "name": "ibishu_jbs_sery",
+    "mapTo": "ibishu_jbs_sery",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/i6_textures/null_ao.png",
+        "baseColorFactor": [
+          0.644886017,
+          0.641192973,
+          0.641192973,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/sery.png",
+        "metallicFactor": 0.785000026,
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/null_n.png",
+        "pixelSpecular": null,
+        "roughnessFactor": 0.730000019
+      },
+      {
+        "baseColorFactor": [
+          0.925960004,
+          0.925949991,
+          0.925949991,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/sery.png",
+        "metallicFactor": null,
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/null_n.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0.474999994
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      }
+    ],
+    "doubleSided": true,
+    "subSurfacaae0": "0",
+    "version": 1.5
+  },
+  "ibishu_jbs_sery_dark": {
+    "name": "ibishu_jbs_sery_dark",
+    "mapTo": "ibishu_jbs_sery_dark",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/i6_textures/null_ao.png",
+        "baseColorFactor": [
+          0.421508014,
+          0.421508014,
+          0.421508014,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/sery_dark.png",
+        "metallicFactor": 0.5,
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/null_n.png",
+        "pixelSpecular": null,
+        "roughnessFactor": 0.444999993
+      },
+      {
+        "baseColorFactor": [
+          0.925960004,
+          0.925949991,
+          0.925949991,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/sery_dark.png",
+        "metallicFactor": null,
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/null_n.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0.474999994
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      }
+    ],
+    "doubleSided": true,
+    "subSurfacaae0": "0",
+    "version": 1.5
+  },
+  "ibishu_jbs_sery_light": {
+    "name": "ibishu_jbs_sery_light",
+    "mapTo": "ibishu_jbs_sery_light",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/i6_textures/null_ao.png",
+        "baseColorFactor": [
+          0.816716015,
+          0.816716015,
+          0.816716015,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/sery_light.png",
+        "metallicFactor": 0.709999979,
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/null_n.png",
+        "pixelSpecular": null,
+        "roughnessFactor": 0.714999974
+      },
+      {
+        "baseColorFactor": [
+          0.925960004,
+          0.925949991,
+          0.925949991,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/sery_light.png",
+        "metallicFactor": null,
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/null_n.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0.474999994
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      }
+    ],
+    "doubleSided": true,
+    "subSurfacaae0": "0",
+    "version": 1.5
+  },
+  "ibishu_jbs_yellow": {
+    "name": "ibishu_jbs_yellow",
+    "mapTo": "ibishu_jbs_yellow",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/ibishu_jbs/i6_textures/black_ao.png",
+        "baseColorFactor": [
+          0.5804380179999999,
+          0.580431998,
+          0.580431998,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/yellow.png",
+        "metallicFactor": 0.708000004,
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/black_n.png",
+        "roughnessFactor": 0.513000011
+      },
+      {
+        "baseColorFactor": [
+          0.925960004,
+          0.925949991,
+          0.925949991,
+          1
+        ],
+        "baseColorMap": "/vehicles/ibishu_jbs/i6_textures/yellow.png",
+        "normalMap": "/vehicles/ibishu_jbs/i6_textures/black_n.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0.474999994
+      },
+      {},
+      {}
+    ],
+    "doubleSided": true,
+    "subSurfacaae0": "0",
+    "version": 1.5
+  }
+}

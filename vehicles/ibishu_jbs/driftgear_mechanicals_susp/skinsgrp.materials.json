@@ -1,0 +1,74 @@
+{
+    "Generic_racing_interior.skin_grp_custom.skin_cabon": {
+    "name": "Generic_racing_interior.skin_grp_custom.skin_cabon",
+    "mapTo": "Generic_racing_interior.skin_grp_custom.skin_cabon",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/racinginterior/Generic_racing_interior_ao.data.png",
+        "baseColorMap": "/vehicles/common/racinginterior/Generic_racing_interior_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/racinginterior/Generic_racing_interior_m.data.png",
+        "normalMap": "/vehicles/common/racinginterior/Generic_racing_interior_nm.normal.png",
+        "roughnessMap": "/vehicles/common/racinginterior/Generic_racing_interior_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+	"doubleSided": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+     "Generic_racing_interior.skin_grp_custom.skin_alcantar": {
+    "name": "Generic_racing_interior.skin_grp_custom.skin_alcantar",
+    "mapTo": "Generic_racing_interior.skin_grp_custom.skin_alcantar",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/racinginterior/Generic_racing_interior_alcantar_ao.data.png",
+        "baseColorMap": "/vehicles/common/racinginterior/Generic_racing_interior_alcantar_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/racinginterior/Generic_racing_interior_alcantar_m.data.png",
+        "normalMap": "/vehicles/common/racinginterior/Generic_racing_interior_alcantar_nm.normal.png",
+        "roughnessMap": "/vehicles/common/racinginterior/Generic_racing_interior_alcantar_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+	"doubleSided": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+       "Generic_racing_interior.skin_grp_custom.skin_alumin": {
+    "name": "Generic_racing_interior.skin_grp_custom.skin_alumin",
+    "mapTo": "Generic_racing_interior.skin_grp_custom.skin_alumin",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/racinginterior/Generic_racing_interior_alumin_ao.data.png",
+        "baseColorMap": "/vehicles/common/racinginterior/Generic_racing_interior_alumin_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/racinginterior/Generic_racing_interior_alumin_m.data.png",
+        "normalMap": "/vehicles/common/racinginterior/Generic_racing_interior_alumin_nm.normal.png",
+        "roughnessMap": "/vehicles/common/racinginterior/Generic_racing_interior_alumin_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+	"doubleSided": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  }
+}
