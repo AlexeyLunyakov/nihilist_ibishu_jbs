@@ -1,0 +1,52 @@
+{
+    "0-100 km/h":8.8,
+    "0-100 mph":23.7,
+    "0-200 km/h":56.2,
+    "0-60 mph":8.3,
+    "100-0 km/h":41.1,
+    "100-200 km/h":46.6,
+    "60-0 mph":126.1,
+    "60-100 mph":14.6,
+    "Body Style":"Sedan",
+    "BoundingBox":[
+      [
+        -0.6993,
+        -2.047,
+        -0.1897
+      ],
+      [
+        1.1993,
+        2.3499,
+        1.0798
+      ]
+    ],
+    "Braking G":0.956,
+    "Config Type":"Factory",
+    "Configuration":"JBS LXZ (M)",
+    "Description":"Luxury sport sedan JDM model with alloy wheels and ABS",
+    "Drag Times":{
+      "time_1000":13.44274402,
+      "time_1_4":16.0497276,
+      "time_1_8":10.31767987,
+      "time_330":6.72202423,
+      "time_60":2.416549041,
+      "velAt_1_4":38.57398785,
+      "velAt_1_8":31.04854251
+    },
+    "Drivetrain":"RWD",
+    "Fuel Type":"Gasoline",
+    "Induction Type":"NA",
+    "Off-Road Score":33,
+    "Population":8000,
+    "Power":180,
+    "PowerPeakRPM":"5950 - 6600",
+    "Propulsion":"ICE",
+    "Top Speed":57.37839241,
+    "Torque":190,
+    "TorquePeakRPM":"3900 - 5700",
+    "Transmission":"Manual",
+    "Value":29000,
+    "Weight":1470,
+    "Weight/Power":8.16,
+    "defaultPaintName1":"Jet Black"
+  }

@@ -1,0 +1,52 @@
+{
+    "0-100 km/h":2.8,
+    "0-100 mph":6.7,
+    "0-200 km/h":8.2,
+    "0-60 mph":3.3,
+    "100-0 km/h":21.1,
+    "100-200 km/h":5.4,
+    "60-0 mph":30.1,
+    "60-100 mph":6.6,
+    "Body Style":"Sedan",
+    "BoundingBox":[
+      [
+        -0.6993,
+        -2.047,
+        -0.1897
+      ],
+      [
+        1.1993,
+        2.3499,
+        1.0798
+      ]
+    ],
+    "Braking G":0.956,
+    "Config Type":"Custom",
+    "Configuration":"JBS V-spec Drift (Street-V8)",
+    "Description":"Drift car built for street drifting",
+    "Drag Times":{
+      "time_1000":13.44274402,
+      "time_1_4":16.0497276,
+      "time_1_8":10.31767987,
+      "time_330":6.72202423,
+      "time_60":2.416549041,
+      "velAt_1_4":38.57398785,
+      "velAt_1_8":31.04854251
+    },
+    "Drivetrain":"RWD",
+    "Fuel Type":"Gasoline",
+    "Induction Type":"NA",
+    "Off-Road Score":10,
+    "Population":8000,
+    "Power":497,
+    "PowerPeakRPM":"5950 - 6600",
+    "Propulsion":"ICE",
+    "Top Speed":247.37839241,
+    "Torque":590,
+    "TorquePeakRPM":"3900 - 5700",
+    "Transmission":"Manual",
+    "Value":170000,
+    "Weight":1470,
+    "Weight/Power":1.47,
+    "defaultPaintName1":"Midnight Pearl"
+  }

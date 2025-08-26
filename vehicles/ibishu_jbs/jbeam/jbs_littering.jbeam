@@ -1,0 +1,304 @@
+{
+"jbs_lettering_trunk_base": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Base Trunk Lettering",
+        "value":50,
+    },
+    "slotType" : "jbs_lettering_trunk",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_ibishu", ["jbs_trunk"]],
+    ],
+},
+"jbs_lettering_trunk_dx": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"DX Trunk Lettering",
+        "value":50,
+    },
+    "slotType" : "jbs_lettering_trunk",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_dx", ["jbs_trunk"]],
+         ["jbs_lettering_ibishu", ["jbs_trunk"]],
+    ],
+},
+"jbs_lettering_trunk_l": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Type-L Trunk Lettering",
+        "value":50,
+    },
+    "slotType" : "jbs_lettering_trunk",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_l", ["jbs_trunk"]],
+         ["jbs_lettering_ibishu", ["jbs_trunk"]],
+    ],
+},
+"jbs_lettering_trunk_lx": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"LX Trunk Lettering",
+        "value":50,
+    },
+    "slotType" : "jbs_lettering_trunk",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_lx", ["jbs_trunk"]],
+         ["jbs_lettering_ibishu", ["jbs_trunk"]],
+    ],
+},
+"jbs_lettering_trunk_ls": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Type-LS Trunk Lettering",
+        "value":50,
+    },
+    "slotType" : "jbs_lettering_trunk",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_ls", ["jbs_trunk"]],
+         ["jbs_lettering_ibishu", ["jbs_trunk"]],
+    ],
+},
+"jbs_lettering_trunk_lxz": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"LXz Trunk Lettering",
+        "value":100,
+    },
+    "slotType" : "jbs_lettering_trunk",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_lxz", ["jbs_trunk"]],
+         ["jbs_lettering_ibishu", ["jbs_trunk"]],
+    ],
+},
+"jbs_lettering_trunk_gtz": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"GTz Trunk Lettering",
+        "value":150,
+    },
+    "slotType" : "jbs_lettering_trunk",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_gtz_turbo", ["jbs_trunk"]],
+         ["jbs_lettering_ibishu", ["jbs_trunk"]],
+    ],
+},
+"jbs_lettering_special": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"V-Special Trunk Lettering",
+        "value":150,
+    },
+    "slotType" : "jbs_lettering_trunk",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_special", ["jbs_trunk"]],
+         ["jbs_lettering_ibishu", ["jbs_trunk"]],
+    ],
+},
+//---------------------------------------------------------------------------------------------------
+"jbs_lettering_tailgate_hatch_l": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Type-L Tailgate Lettering",
+        "value":50,
+    },
+    "slotType" : "jbs_lettering_tailgate_hatch",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_hatch_l", ["jbs_trunk"]],
+         ["jbs_lettering_hatch_ibishu", ["jbs_trunk"]],
+    ],
+},
+"jbs_lettering_tailgate_hatch_ls": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Type-LS Tailgate Lettering",
+        "value":50,
+    },
+    "slotType" : "jbs_lettering_tailgate_hatch",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_hatch_ls", ["jbs_trunk"]],
+         ["jbs_lettering_hatch_ibishu", ["jbs_trunk"]],
+    ],
+},
+"jbs_lettering_tailgate_hatch_dx": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"DX Tailgate Lettering",
+        "value":50,
+    },
+    "slotType" : "jbs_lettering_tailgate_hatch",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_hatch_dx", ["jbs_trunk"]],
+         ["jbs_lettering_hatch_ibishu", ["jbs_trunk"]],
+    ],
+},
+"jbs_lettering_tailgate_hatch_lx": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"LX Tailgate Lettering",
+        "value":50,
+    },
+    "slotType" : "jbs_lettering_tailgate_hatch",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_hatch_lx", ["jbs_trunk"]],
+         ["jbs_lettering_hatch_ibishu", ["jbs_trunk"]],
+    ],
+},
+"jbs_lettering_tailgate_hatch_lxz": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"LXz Tailgate Lettering",
+        "value":50,
+    },
+    "slotType" : "jbs_lettering_tailgate_hatch",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_hatch_lxz", ["jbs_trunk"]],
+         ["jbs_lettering_hatch_ibishu", ["jbs_trunk"]],
+    ],
+},
+"jbs_lettering_tailgate_hatch_gtz": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"GTz Tailgate Lettering",
+        "value":50,
+    },
+    "slotType" : "jbs_lettering_tailgate_hatch",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_hatch_gtz_turbo", ["jbs_trunk"]],
+         ["jbs_lettering_hatch_ibishu", ["jbs_trunk"]],
+    ],
+},
+"jbs_lettering_rearpanel_hatch_240bx": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"240BX Rear Panel Lettering",
+        "value":50,
+    },
+    "slotType" : "jbs_lettering_rearpanel_hatch",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_hatch_240bx", ["jbs_trunk"]],
+    ],
+},
+"jbs_lettering_rearpanel_hatch_200bx": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"200BX Rear Panel Lettering",
+        "value":50,
+    },
+    "slotType" : "jbs_lettering_rearpanel_hatch",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_hatch_200bx", ["jbs_trunk"]],
+    ],
+},
+"jbs_lettering_rearpanel_hatch_special": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"V-Special Rear Panel Lettering",
+        "value":150,
+    },
+    "slotType" : "jbs_lettering_rearpanel_hatch",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_hatch_special", ["jbs_trunk"]],
+    ],
+},
+"jbs_badge_F_popup": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Badge",
+        "value":80,
+    },
+    "slotType" : "jbs_lettering_F_popup",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_bumper_F_popup_ibishu", ["jbs_bumper_F"]],
+    ],
+},
+"jbs_badge_F_popup_kit_a": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Badge",
+        "value":80,
+    },
+    "slotType" : "jbs_lettering_F_popup_kit_a",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_bumper_F_popup_kit_a_ibishu", ["jbs_bumper_F"]],
+    ],
+},
+"jbs_badge_F_popup_kit_b": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Badge",
+        "value":80,
+    },
+    "slotType" : "jbs_lettering_F_popup_kit_b",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_bumper_F_popup_kit_b_ibishu", ["jbs_bumper_F"]],
+    ],
+},
+"jbs_badge_F_hood_fixed_ibishu": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Hood Badge",
+        "value":100,
+    },
+    "slotType" : "jbs_lettering_hood_fixed",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_hood_fixed_ibishu", ["jbs_hood"]],
+     ],
+},
+"jbs_badge_F_hood_fixed_diana": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Diana Front Hood Badge",
+        "value":150,
+    },
+    "slotType" : "jbs_lettering_hood_fixed",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_hood_fixed_diana", ["jbs_hood"]],
+     ],
+},
+"jbs_badge_F_grille_fixed_ibishu": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Grille Badge",
+        "value":100,
+    },
+    "slotType" : "jbs_lettering_grille_fixed",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_grille_fixed_ibishu", ["jbs_grille_F", "jbs_bumper_F"]],
+     ],
+},
+"jbs_badge_F_grille_fixed_diana": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Diana Front Grille Badge",
+        "value":150,
+    },
+    "slotType" : "jbs_lettering_grille_fixed",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lettering_grille_fixed_diana", ["jbs_grille_F", "jbs_bumper_F"]],
+     ],
+},
+}

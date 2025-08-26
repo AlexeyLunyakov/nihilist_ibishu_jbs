@@ -1,0 +1,38 @@
+{
+"jbs_enhanced_ecu": {
+    "information":{
+        "authors":"Bishop",
+        "name":"Enhanced ECU",
+        "value":625,
+    },
+    "slotType" : ["jbs_engine_ecu", "pickup_engine_v8_ecu"],
+	"slots": [
+        ["type", "default", "description"],
+        ["ecu_revtype","timeBased", "Rev Limiter Type", {"coreSlot":true}],
+    ],
+	"variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        ["$revLimiterRPM", "range", "rpm", "Engine", 6500, 3500, 11000, "RPM Limit", "RPM where the rev limiter starts to prevents further revving", {"stepDis":50}],
+        ["$idleRPM", "range", "rpm", "Engine", 1000, 600, 4000, "Idle RPM", "The rpm at which the engine will idle when not under load.", {"stepDis":50}],
+        ["$idleRPMRoughness", "range", "%", "Engine", 3, 0, 100, "Idle Roughness", "The instability of the idle.", {"stepDis":1}],
+        ["$maxIdleThrottle", "range", "%", "Engine", 15, 5, 100, "Max Idle Throttle", "How much throttle the car is able to give to maintain idling.", {"stepDis":1}],
+        ["$particulates", "range", "%", "Engine", 0, 0, 100, "Smoke Amount Under Load", "How much smoke is produced by the engine at full load (ENTIRELY COSMETIC).", {"stepDis":1}],
+        ["$idleParticulates", "range", "%", "Engine", 0, 0, 100, "Smoke Amount At No Load", "How much smoke is produced by the engine at no load. (ENTIRELY COSMETIC).", {"stepDis":1}],
+        ["$instantAfterFireCoef", "range", "%", "Engine", 0, 0, 100, "Backfire Chance", "Chance of backfire occuring when engine load suddenly drops.", {"stepDis":1}],
+        ["$sustainedAfterFireCoef", "range", "%", "Engine", 0, 0, 100, "Backfire Amount", "Backfire coeficient amount; will define amount of consequent backfiring.", {"stepDis":1}],
+        ["$sustainedAfterFireTime", "range", "s", "Engine", 0, 0, 10, "Backfire Time", "How long the backfiring will go on for (in seconds), if the backfire amount is greater than zero.", {"stepDis":0.1}],
+    ],
+    "mainEngine":{
+        "hasRevLimiter":true,
+        "revLimiterRPM":"$revLimiterRPM",
+		"idleRPM":"$idleRPM",
+        "idleRPMRoughness":"$=$idleRPMRoughness*20",
+		"maxIdleThrottle":"$=$maxIdleThrottle/100",
+		"particulates":"$=$particulates/100",
+		"idleParticulates":"$=$idleParticulates/100",
+		"instantAfterFireCoef":"$=$instantAfterFireCoef/100",
+		"sustainedAfterFireCoef":"$=$sustainedAfterFireCoef/10",
+		"sustainedAfterFireTime":"$sustainedAfterFireTime",
+    },
+},
+}

@@ -1,0 +1,159 @@
+{
+"jbs_trim_body_black": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Black Body Trim",
+        "value":45,
+    },
+    "slotType" : "jbs_trim_body",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_door_trim_black_FR", ["jbs_door_FR"]],
+         ["jbs_door_trim_black_FL", ["jbs_door_FL"]],
+         ["jbs_door_trim_black_RR", ["jbs_door_RR"]],
+         ["jbs_door_trim_black_RL", ["jbs_door_RL"]],
+         ["jbs_fender_trim_black_R", ["jbs_fender_R"]],
+         ["jbs_fender_trim_black_L", ["jbs_fender_L"]],
+    ],
+}
+"jbs_trim_bumper_R_black": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Black Rear Bumper Trim",
+        "value":25,
+    },
+    "slotType" : "jbs_trim_bumper_R",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_bumper_trim_black_R", ["jbs_bumper_R"]],
+    ],
+}
+"jbs_trim_bumper_F_black": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Black Front Bumper Trim",
+        "value":25,
+    },
+    "slotType" : "jbs_trim_bumper_F",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_bumper_trim_black_F", ["jbs_bumper_F"]],
+    ],
+}
+"jbs_trim_body_painted": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Painted Body Trim",
+        "value":45,
+    },
+    "slotType" : "jbs_trim_body",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_door_trim_painted_FR", ["jbs_door_FR"]],
+         ["jbs_door_trim_painted_FL", ["jbs_door_FL"]],
+         ["jbs_door_trim_painted_RR", ["jbs_door_RR"]],
+         ["jbs_door_trim_painted_RL", ["jbs_door_RL"]],
+         ["jbs_fender_trim_painted_R", ["jbs_fender_R"]],
+         ["jbs_fender_trim_painted_L", ["jbs_fender_L"]],
+    ],
+}
+"jbs_trim_bumper_R_painted": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Painted Rear Bumper Trim",
+        "value":25,
+    },
+    "slotType" : "jbs_trim_bumper_R",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_bumper_trim_painted_R", ["jbs_bumper_R"]],
+    ],
+}
+"jbs_trim_bumper_F_painted": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Painted Front Bumper Trim",
+        "value":25,
+    },
+    "slotType" : "jbs_trim_bumper_F",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_bumper_trim_painted_F", ["jbs_bumper_F"]],
+    ],
+}
+
+"jbs_trim_body_chrome": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Chrome Body Trim",
+        "value":45,
+    },
+    "slotType" : "jbs_trim_body",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_door_trim_chrome_FR", ["jbs_door_FR"]],
+         ["jbs_door_trim_chrome_FL", ["jbs_door_FL"]],
+         ["jbs_door_trim_chrome_RR", ["jbs_door_RR"]],
+         ["jbs_door_trim_chrome_RL", ["jbs_door_RL"]],
+         ["jbs_fender_trim_chrome_R", ["jbs_fender_R"]],
+         ["jbs_fender_trim_chrome_L", ["jbs_fender_L"]],
+    ],
+}
+"jbs_trim_bumper_R_chrome": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Chrome Rear Bumper Trim",
+        "value":25,
+    },
+    "slotType" : "jbs_trim_bumper_R",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_bumper_trim_chrome_R", ["jbs_bumper_R"]],
+    ],
+}
+"jbs_trim_bumper_F_chrome": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Chrome Front Bumper Trim",
+        "value":25,
+    },
+    "slotType" : "jbs_trim_bumper_F",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_bumper_trim_chrome_F", ["jbs_bumper_F"]],
+    ],
+}
+
+"jbs_trim_windows_black": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Black Windows Lining",
+        "value":45,
+    },
+    "slotType" : "jbs_trim_windows",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lining_main_black", ["jbs_body"]],
+		 ["jbs_lining_rl_black", ["jbs_door_RL"]],
+		 ["jbs_lining_rr_black", ["jbs_door_RR"]],
+		 ["jbs_lining_fl_black", ["jbs_door_FL"]],
+		 ["jbs_lining_fr_black", ["jbs_door_FR"]],
+    ],
+}
+"jbs_trim_windows_chrome": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Chrome Windows Lining",
+        "value":45,
+    },
+    "slotType" : "jbs_trim_windows",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_lining_main_chrome", ["jbs_body"]],
+		 ["jbs_lining_rl_chrome", ["jbs_door_RL"]],
+		 ["jbs_lining_rr_chrome", ["jbs_door_RR"]],
+		 ["jbs_lining_fl_chrome", ["jbs_door_FL"]],
+		 ["jbs_lining_fr_chrome", ["jbs_door_FR"]],
+    ],
+}
+}

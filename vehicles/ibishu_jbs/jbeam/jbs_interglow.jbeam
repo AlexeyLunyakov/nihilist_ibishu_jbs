@@ -1,0 +1,128 @@
+{"jbs_interglow_white": {
+    "information":{
+        "authors":"Nihilist",
+        "name":"White Neon Lights",
+        "value":1000,
+    },
+    "slotType" : "jbs_interglow",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["jbs_neon_inter_cap_right", ["jbs_body"], []],
+        ["jbs_neon_inter_cap_left", ["jbs_body"], []],
+
+        {"deformGroup":"interglow_MR_break", "deformMaterialBase":"neon_tube_glow", "deformMaterialDamaged":"neon_tube_glow"},
+        ["jbs_neon_inter_right", ["jbs_body"], []],
+        {"deformGroup":"interglow_ML_break", "deformMaterialBase":"neon_tube_glow", "deformMaterialDamaged":"neon_tube_glow"},
+        ["jbs_neon_inter_left", ["jbs_body"], []],
+        {"deformGroup":""},
+    ],
+    "glowMap":{
+        "neon_tube_glow":{"simpleFunction":{"underglow":1}, "off":"neon_tube_glow", "on":"neon_tube_glow_white", "on_intense":"neon_tube_glow_white"},
+    },
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+        {
+            "lightInnerAngle":0,
+            "lightOuterAngle":179,
+            "lightRange":1.0,
+            "lightColor":{"r":255, "g":255, "b":255, "a":255},
+            "lightAttenuation":{"x":0, "y":1, "z":1},
+            "lightCastShadows":false,
+            "flareName":"vehicleHeadLightFlare",
+            "cookieName":"/art/special/BNG_light_cookie_underglow.dds"
+            "texSize":512,
+            "shadowSoftness":0.4,
+        },
+        //left
+        ["underglow" ,         "SPOTLIGHT"        , "f5l", "f5l", "f5ll", {"x":90, "y":-45, "z":0} ,  {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x": 0.0, "y": 0.0, "z": 0.2},"flareScale":0.00,"lightBrightness":0.8,"deformGroup":"interglow_ML_break"}],
+        //right
+        ["underglow" ,         "SPOTLIGHT"        , "f5r", "f5r", "f5rr", {"x":90, "y":-45, "z":0} ,  {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x": 0.0, "y": 0.0, "z": 0.2},"flareScale":0.00,"lightBrightness":0.8,"deformGroup":"interglow_MR_break"}],
+        ],
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"disableMeshBreaking":true,"disableTriangleBreaking":true},
+          {"beamSpring":701000,"beamDamp":10},
+          {"beamDeform":4500,"beamStrength":8500},
+          {"deformLimitExpansion":""},
+          {"deformGroup":"interglow_MR_break", "deformationTriggerRatio":0.03},
+          {"breakGroup":"interglow_MR"},
+          ["f5r", "f5rr"],
+          {"deformGroup":"interglow_ML_break", "deformationTriggerRatio":0.03},
+          {"breakGroup":"interglow_ML"},
+          ["f5l", "f5ll"],
+          {"breakGroup":""},
+          {"disableMeshBreaking":false,"disableTriangleBreaking":false},
+          {"deformGroup":""},
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"deformLimitExpansion":1.1},
+    ],
+},
+
+"jbs_interglow_colorable": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Colorable Neon Lights",
+        "value":5000,
+    },
+    "slotType" : "jbs_interglow",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["jbs_neon_inter_cap_right", ["jbs_body"], []],
+        ["jbs_neon_inter_cap_left", ["jbs_body"], []],
+
+        {"deformGroup":"interglow_MR_break", "deformMaterialBase":"neon_tube_glow", "deformMaterialDamaged":"neon_tube_glow"},
+        ["jbs_neon_inter_right", ["jbs_body"], []],
+        {"deformGroup":"interglow_ML_break", "deformMaterialBase":"neon_tube_glow", "deformMaterialDamaged":"neon_tube_glow"},
+        ["jbs_neon_inter_left", ["jbs_body"], []],
+        {"deformGroup":""},
+    ],
+	"variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        ["$1Ri_color", "range", " ", "Colorable interior glow", 255, 0, 255, "Red", "Red", {"stepDis":1}],
+        ["$2Gi_color", "range", " ", "Colorable interior glow", 255, 0, 255, "Green", "Green", {"stepDis":1}],
+        ["$3Bi_color", "range", " ", "Colorable interior glow", 255, 0, 255, "Blue", "Blue", {"stepDis":1}],
+    ],
+    "glowMap":{
+        "neon_tube_glow":{"simpleFunction":{"interglow":1}, "off":"neon_tube_glow", "on":"neon_tube_glow_white", "on_intense":"neon_tube_glow_white"},
+    },
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+        {
+            "lightInnerAngle":0,
+            "lightOuterAngle":179,
+            "lightRange":2.00,
+            "lightColor":{"r":"$1Ri_color", "g":"$2Gi_color", "b":"$3Bi_color", "a":255},
+            "lightAttenuation":{"x":0, "y":1, "z":1},
+            "lightCastShadows":false,
+            "flareName":"vehicleHeadLightFlare",
+            "cookieName":"/art/special/BNG_light_cookie_interglow.dds"
+            "texSize":512,
+            "shadowSoftness":0.4,
+        },
+        //left
+        ["underglow" ,         "SPOTLIGHT"        , "f5l", "f5l", "f5ll", {"x":90, "y":-45, "z":0} ,  {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x": 0.0, "y": 0.0, "z": 0.2},"flareScale":0.00,"lightBrightness":0.8,"deformGroup":"interglow_ML_break"}],
+        //right
+        ["underglow" ,         "SPOTLIGHT"        , "f5r", "f5r", "f5rr", {"x":90, "y":-45, "z":0} ,  {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x": 0.0, "y": 0.0, "z": 0.2},"flareScale":0.00,"lightBrightness":0.8,"deformGroup":"interglow_MR_break"}],
+        ],
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"disableMeshBreaking":true,"disableTriangleBreaking":true},
+          {"beamSpring":701000,"beamDamp":10},
+          {"beamDeform":4500,"beamStrength":8500},
+          {"deformLimitExpansion":""},
+          {"deformGroup":"interglow_MR_break", "deformationTriggerRatio":0.03},
+          {"breakGroup":"interglow_MR"},
+          ["f5r", "f5rr"],
+          {"deformGroup":"interglow_ML_break", "deformationTriggerRatio":0.03},
+          {"breakGroup":"interglow_ML"},
+          ["f5l", "f5ll"],
+          {"breakGroup":""},
+          {"disableMeshBreaking":false,"disableTriangleBreaking":false},
+          {"deformGroup":""},
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"deformLimitExpansion":1.1},
+    ],
+},
+}

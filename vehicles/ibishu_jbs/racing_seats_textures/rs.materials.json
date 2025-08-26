@@ -1,0 +1,211 @@
+{
+  "racing_seat_RR.skin_rs.base_gray": {
+    "name": "racing_seat_RR.skin_rs.base_gray",
+    "mapTo": "racing_seat_RR.skin_rs.base_gray",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/racinginterior/racing_seat_ao.data.png",
+        "baseColorMap": "/vehicles/common/racinginterior/racing_seat_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/racinginterior/racing_seat_m.data.png",
+        "normalMap": "/vehicles/common/racinginterior/racing_seat_nm.normal.png",
+        "roughnessMap": "/vehicles/common/racinginterior/racing_seat_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "racing_seat_RR.skin_rs.base_blue": {
+    "name": "racing_seat_RR.skin_rs.base_blue",
+    "mapTo": "racing_seat_RR.skin_rs.base_blue",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/racinginterior/racing_seat_blue_ao.data.png",
+        "baseColorMap": "/vehicles/common/racinginterior/racing_seat_blue_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/racinginterior/racing_seat_blue_m.data.png",
+        "normalMap": "/vehicles/common/racinginterior/racing_seat_blue_nm.normal.png",
+        "roughnessMap": "/vehicles/common/racinginterior/racing_seat_blue_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "racing_seat_RR.skin_rs.base_red": {
+    "name": "racing_seat_RR.skin_rs.base_red",
+    "mapTo": "racing_seat_RR.skin_rs.base_red",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/racinginterior/racing_seat_red_ao.data.png",
+        "baseColorMap": "/vehicles/common/racinginterior/racing_seat_red_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/racinginterior/racing_seat_red_m.data.png",
+        "normalMap": "/vehicles/common/racinginterior/racing_seat_red_nm.normal.png",
+        "roughnessMap": "/vehicles/common/racinginterior/racing_seat_red_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "racing_seat_RR.skin_rs.base_green": {
+    "name": "racing_seat_RR.skin_rs.base_green",
+    "mapTo": "racing_seat_RR.skin_rs.base_green",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/racinginterior/racing_seat_green_ao.data.png",
+        "baseColorMap": "/vehicles/common/racinginterior/racing_seat_green_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/racinginterior/racing_seat_green_m.data.png",
+        "normalMap": "/vehicles/common/racinginterior/racing_seat_green_nm.normal.png",
+        "roughnessMap": "/vehicles/common/racinginterior/racing_seat_green_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "racing_seat_RL.skin_rls.base_gray": {
+    "name": "racing_seat_RL.skin_rls.base_gray",
+    "mapTo": "racing_seat_RL.skin_rls.base_gray",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/racinginterior/racing_seat_ao.data.png",
+        "baseColorMap": "/vehicles/common/racinginterior/racing_seat_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/racinginterior/racing_seat_m.data.png",
+        "normalMap": "/vehicles/common/racinginterior/racing_seat_nm.normal.png",
+        "roughnessMap": "/vehicles/common/racinginterior/racing_seat_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "racing_seat_RL.skin_rls.base_blue": {
+    "name": "racing_seat_RL.skin_rls.base_blue",
+    "mapTo": "racing_seat_RL.skin_rls.base_blue",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/racinginterior/racing_seat_blue_ao.data.png",
+        "baseColorMap": "/vehicles/common/racinginterior/racing_seat_blue_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/racinginterior/racing_seat_blue_m.data.png",
+        "normalMap": "/vehicles/common/racinginterior/racing_seat_blue_nm.normal.png",
+        "roughnessMap": "/vehicles/common/racinginterior/racing_seat_blue_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "racing_seat_RL.skin_rls.base_red": {
+    "name": "racing_seat_RL.skin_rls.base_red",
+    "mapTo": "racing_seat_RL.skin_rls.base_red",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/racinginterior/racing_seat_red_ao.data.png",
+        "baseColorMap": "/vehicles/common/racinginterior/racing_seat_red_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/racinginterior/racing_seat_red_m.data.png",
+        "normalMap": "/vehicles/common/racinginterior/racing_seat_red_nm.normal.png",
+        "roughnessMap": "/vehicles/common/racinginterior/racing_seat_red_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "racing_seat_RL.skin_rls.base_green": {
+    "name": "racing_seat_RL.skin_rls.base_green",
+    "mapTo": "racing_seat_RL.skin_rls.base_green",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/racinginterior/racing_seat_green_ao.data.png",
+        "baseColorMap": "/vehicles/common/racinginterior/racing_seat_green_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/racinginterior/racing_seat_green_m.data.png",
+        "normalMap": "/vehicles/common/racinginterior/racing_seat_green_nm.normal.png",
+        "roughnessMap": "/vehicles/common/racinginterior/racing_seat_green_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "racing_seat_RR": {
+    "name": "racing_seat_RR",
+    "mapTo": "racing_seat_RR",
+    "class": "Material",
+    "persistentId": "132ae390-9dc3-4ba5-b1b7-4ee4a5bbb90c",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "racing_seat_RL": {
+    "name": "racing_seat_RL",
+    "mapTo": "racing_seat_RL",
+    "class": "Material",
+    "persistentId": "132ae390-9dc3-4ba5-b1b7-4ee4a5bbb90c",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  }
+  
+}

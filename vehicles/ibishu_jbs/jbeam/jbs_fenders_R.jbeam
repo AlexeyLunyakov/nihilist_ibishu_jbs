@@ -1,0 +1,173 @@
+{
+    //s90
+    "jbs_rear_flares_kit_a": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Type 3 Rear Flares (+10)",
+            "value":350,
+        },
+        "slotType" : ["jbs_fenderflares", "jbs_fenderflares_wide"],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            ["jbs_rear_flares_kit_a", ["jbs_body"]],
+            ["jbs_rear_flares_R_kit_a", ["jbs_door_RR"]],
+            ["jbs_rear_flares_L_kit_a", ["jbs_door_RL"]],
+        ],
+    },
+    "jbs_rear_flares_kit_b": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Type 3 Rear Flares (+20)",
+            "value":350,
+        },
+        "slotType" : ["jbs_fenderflares", "jbs_fenderflares_wide"],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            ["jbs_rear_flares_kit_b", ["jbs_body"]],
+            ["jbs_rear_flares_R_kit_a", ["jbs_door_RR"]],
+            ["jbs_rear_flares_L_kit_a", ["jbs_door_RL"]],
+        ],
+    },
+    "jbs_rear_flares_kit_c": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Custom Rear Flares (+25)",
+            "value":350,
+        },
+        "slotType" : ["jbs_fenderflares", "jbs_fenderflares_s100"],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            ["jbs_flare_kit_c", ["jbs_body"]],
+        ],
+    },
+    "jbs_rear_flares_kit_d": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Type 2 Rear Flares (+30)",
+            "value":350,
+        },
+        "slotType" : ["jbs_fenderflares", "jbs_fenderflares_wide", "jbs_fenderflares_s100", "jbs_fenderflares_s100_wide"],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            ["jbs_rear_flares_kit_d", ["jbs_body"]],
+            ["jbs_rear_flares_R_kit_d", ["jbs_door_RR"]],
+            ["jbs_rear_flares_L_kit_d", ["jbs_door_RL"]],
+        ],
+    },
+    "jbs_rear_flares_kit_e": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Type 1 Rear Flares (+30)",
+            "value":350,
+        },
+        "slotType" : ["jbs_fenderflares", "jbs_fenderflares_wide"],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            ["jbs_rear_flares_kit_e", ["jbs_body"]],
+            ["jbs_rear_flares_R_kit_e", ["jbs_door_RR"]],
+            ["jbs_rear_flares_L_kit_e", ["jbs_door_RL"]],
+        ],
+    },
+    // carbon
+    "jbs_rear_flares_cbn_kit_a": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Carbon Type 1 Rear Flares (+10)",
+            "value":350,
+        },
+        "slotType" : ["jbs_fenderflares", "jbs_fenderflares_wide"],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            ["jbs_rear_flares_carbon_kit_a", ["jbs_body"]],
+            ["jbs_rear_flares_carbon_R_kit_a", ["jbs_door_RR"]],
+            ["jbs_rear_flares_carbon_L_kit_a", ["jbs_door_RL"]],
+        ],
+    },
+    "jbs_rear_flares_cbn_kit_b": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Carbon Type 2 Rear Flares (+20)",
+            "value":350,
+        },
+        "slotType" : ["jbs_fenderflares", "jbs_fenderflares_wide"],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            ["jbs_rear_flares_carbon_kit_b", ["jbs_body"]],
+            ["jbs_rear_flares_carbon_R_kit_a", ["jbs_door_RR"]],
+            ["jbs_rear_flares_carbon_L_kit_a", ["jbs_door_RL"]],
+        ],
+    },
+    //
+    //s100
+    "jbs_rear_flares_s100_kit_a": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Type 3 Rear Flares (+10)",
+            "value":350,
+        },
+        "slotType" : ["jbs_fenderflares_s100", "jbs_fenderflares_s100_wide"],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            ["jbs_rear_flares_s100_kit_a", ["jbs_body"]],
+            ["jbs_rear_flares_R_kit_a", ["jbs_door_RR"]],
+            ["jbs_rear_flares_L_kit_a", ["jbs_door_RL"]],
+        ],
+    },
+    "jbs_rear_flares_s100_kit_b": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Type 3 Rear Flares (+20)",
+            "value":350,
+        },
+        "slotType" : ["jbs_fenderflares_s100", "jbs_fenderflares_s100_wide"],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            ["jbs_rear_flares_s100_kit_b", ["jbs_body"]],
+            ["jbs_rear_flares_R_kit_a", ["jbs_door_RR"]],
+            ["jbs_rear_flares_L_kit_a", ["jbs_door_RL"]],
+        ],
+    },
+    "jbs_rear_flares_s100_kit_e": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Type 1 Rear Flares (+30)",
+            "value":350,
+        },
+        "slotType" : ["jbs_fenderflares_s100", "jbs_fenderflares_s100_wide"],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            ["jbs_rear_flares_s100_kit_e", ["jbs_body"]],
+            ["jbs_rear_flares_R_kit_e", ["jbs_door_RR"]],
+            ["jbs_rear_flares_L_kit_e", ["jbs_door_RL"]],
+        ],
+    },
+    // carbon
+    "jbs_rear_flares_cbn_kit_a": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Carbon Type 1 Rear Flares (+10)",
+            "value":350,
+        },
+        "slotType" : ["jbs_fenderflares_s100", "jbs_fenderflares_s100_wide"],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            ["jbs_rear_flares_s100_carbon_kit_a", ["jbs_body"]],
+            ["jbs_rear_flares_carbon_R_kit_a", ["jbs_door_RR"]],
+            ["jbs_rear_flares_carbon_L_kit_a", ["jbs_door_RL"]],
+        ],
+    },
+    "jbs_rear_flares_cbn_kit_b": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Carbon Type 2 Rear Flares (+20)",
+            "value":350,
+        },
+        "slotType" : ["jbs_fenderflares_s100", "jbs_fenderflares_s100_wide"],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            ["jbs_rear_flares_s100_carbon_kit_b", ["jbs_body"]],
+            ["jbs_rear_flares_carbon_R_kit_a", ["jbs_door_RR"]],
+            ["jbs_rear_flares_carbon_L_kit_a", ["jbs_door_RL"]],
+        ],
+    },
+}

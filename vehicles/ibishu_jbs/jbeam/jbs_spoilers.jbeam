@@ -1,0 +1,50 @@
+{
+"jbs_spoiler_kit_d": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Type 4 Custom Spoiler",
+        "value":550,
+    },
+    "slotType" : "jbs_spoiler",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_spoiler_kit_d", ["jbs_trunk"]],
+    ],
+},
+"jbs_spoiler_kit_c": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Type 3 Custom Spoiler",
+        "value":550,
+    },
+    "slotType" : "jbs_spoiler",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_spoiler_kit_a", ["jbs_trunk"]],
+    ],
+},
+"jbs_spoiler_kit_b": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Type 2 Custom Spoiler",
+        "value":350,
+    },
+    "slotType" : "jbs_spoiler",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_spoiler_kit_b", ["jbs_trunk"]],
+    ],
+},
+"jbs_spoiler_kit_a": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Type 1 Custom Spoiler",
+        "value":350,
+    },
+    "slotType" : "jbs_spoiler",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_spoiler_kit_c", ["jbs_trunk"]],
+    ],
+},
+}

@@ -1,0 +1,86 @@
+{
+"jbs_sideskirts_stock": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Stock Side Skirts",
+        "value":350,
+    },
+    "slotType" : "jbs_sideskirts",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_sideskirts_stock", ["jbs_body"]],
+    ],
+},
+"jbs_sideskirts_stock_turbo": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Stock Type-S Side Skirts",
+        "value":350,
+    },
+    "slotType" : "jbs_sideskirts",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_sideskirts_stock_v3", ["jbs_body"]],
+    ],
+},
+"jbs_sideskirts_stock_sport": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Custom Sport Side Skirts",
+        "value":350,
+    },
+    "slotType" : "jbs_sideskirts",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_sideskirts_stock_v2", ["jbs_body"]],
+    ],
+},
+"jbs_sideskirts_kit_a": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Type 1 Custom Side Skirts",
+        "value":350,
+    },
+    "slotType" : "jbs_sideskirts",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_sideskirts_kit_a", ["jbs_body"]],
+    ],
+},
+"jbs_sideskirts_kit_b": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Type 2 Custom Side Skirts",
+        "value":350,
+    },
+    "slotType" : "jbs_sideskirts",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_sideskirts_kit_b", ["jbs_body"]],
+    ],
+},
+"jbs_sideskirts_kit_c": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Type 3 Custom Side Skirts",
+        "value":350,
+    },
+    "slotType" : "jbs_sideskirts",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_sideskirts_kit_c", ["jbs_body"]],
+    ],
+},
+"jbs_roof_spoiler_kit_a": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Type 1 Custom Roof Spoiler",
+        "value":350,
+    },
+    "slotType" : "jbs_roof_spoiler",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_roof_spoiler", ["jbs_body"]],
+    ],
+},
+}

@@ -1,0 +1,320 @@
+{
+"jbs_roof_a": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Standard Roof",
+        "value":350,
+    },
+    "slotType" : "jbs_roof",
+    "slots": [
+        ["type", "default", "description"],
+        ["jbs_lightbar","", "Light Bar"],
+        ["jbs_roof_spoiler","", "Roof spoiler"],
+        ["jbs_roof_accessory","", "Roof Accessory"],
+    ],
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_roof_a", ["jbs_body"]],
+    ],
+},
+// sunroof
+"jbs_roof_sunroof": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Sunroof (WIP)",
+        "value":350,
+    },
+    "slotType" : "jbs_roof",
+    "slots": [
+        ["type", "default", "description"],
+        ["jbs_lightbar","", "Light Bar"],
+        ["jbs_roof_spoiler","", "Roof spoiler"],
+        ["jbs_roof_accessory","", "Roof Accessory"],
+        ["jbs_sunroof_glass","jbs_sunroof_glass_a", "Sunroof Fill"],
+    ],
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_roof_b", ["jbs_body"]],
+		 ["jbs_sunroof_hatch", ["jbs_body"]],
+    ],
+},
+"jbs_sunroof_glass_a": {
+    "information":{
+        "authors":"BeamNG & KLJP",
+        "name":"Glass",
+        "value":350,
+    },
+    "slotType" : "jbs_sunroof_glass",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_sunroof_glass_frame", ["jbs_sunroof_glass"]],
+         {"deformGroup":"sunroof_break", "deformMaterialBase":"jbs_glass", "deformMaterialDamaged":"jbs_windshield_dmg"},
+         ["jbs_sunroof_glass", ["jbs_sunroof_glass"]],
+         {"deformGroup":""},
+    ],
+    "controller": [
+        ["fileName"],
+        ["advancedCouplerControl", {"name":"roofOpener"}],
+    ],
+    "roofOpener":{
+        "groupType": "autoCoupling",
+        "couplerNodes":[
+            ["cid1",    "cid2",     "autoCouplingStrength",    "autoCouplingRadius",   "autoCouplingLockRadius",   "autoCouplingSpeed", "couplingStartRadius",  "breakGroup"]
+            ["su4",      "su2",        40000,                     0.01,                   0.005,                      0.2,                 0.1,                   "sunroof_break"]
+        ]
+        "attachSoundVolume":0.7,
+        "detachSoundVolume":0.7,
+        "soundNode:":["su3"]
+        "attachSoundEvent": "event:>Vehicle>Latches>Special>beambox_close",
+        "detachSoundEvent": "event:>Vehicle>Latches>Trunk>90s_01_open",
+        "breakSoundEvent":""
+        "openForceMagnitude": 0,
+        "openForceDuration": 0,
+        "closeForceMagnitude": 205,
+        "closeForceDuration": 0.9,
+    },
+    "triggers":[
+        ["id", "label", "idRef:", "idX:", "idY:", "type", "size", "baseRotation", "rotation", "translation", "baseTranslation"],
+        ["sunroof", "Sunroof", "rf1l","rf1r","rf2l", "sphere", 0.020, {"x":0, "y":0, "z":0}, {"x":0, "y":0, "z":0}, {"x":0.505, "y":-0.19, "z":0.02}, {"x":0, "y":0, "z":0}],
+    ],
+    "triggerEventLinks":[
+        ["triggerId:triggers", "action", "targetEventId:events"],
+        ["sunroof", "action0", "sunroof"],
+    ],
+    "events":[
+        ["id", "title", "desc"],
+        ["sunroof", "ui.inputActions.jbs.sunroof.title", "ui.inputActions.jbs.sunroof.description", {"onUp":"controller.getControllerSafe('roofOpener').toggleGroup()"}],
+    ],
+    "torsionbars":[
+        ["id1:", "id2:", "id3:", "id4:"],
+        //rigidify frame
+        {"spring":530000, "damp":20, "deform":15000, "strength":200000},
+        ["su1r", "su1", "su2", "su2r"],
+        ["su1l", "su1", "su2", "su2l"],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //--SUNROOF--
+         {"nodeMaterial":"|NM_METAL"},
+         {"frictionCoef":0.5},
+         {"collision":true},
+         {"selfCollision":true},
+         {"group":"jbs_sunroof_glass"},
+         {"nodeWeight":2},
+         ["su1l", 0.4051, 0.1408, 1.2793],
+         ["su1",  0.000, 0.1414, 1.2933],
+         ["su1r",-0.4057, 0.1408, 1.2793],
+
+         ["su2l", 0.4051, 0.523, 1.3071],
+         ["su2",  0.000, 0.523, 1.3181],
+         ["su2r",-0.4057, 0.523, 1.3071],
+
+         //rigidifier and break node
+         {"selfCollision":false},
+         {"collision":true},
+         {"group":""},
+         ["su3",  0.000, 0.3391, 1.4612, {"nodeWeight":2}],
+
+         {"collision":false},
+         //coupler
+         ["su4",  0.000, 0.523, 1.3181, {"nodeWeight":2}],
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          //--SUNROOF--
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"beamSpring":1523050,"beamDamp":150},
+          {"beamDeform":46150,"beamStrength":"FLT_MAX"},
+          //sunroof main shape
+          {"deformLimitExpansion":1.1},
+          ["su1l","su2l"],
+          ["su1","su2"],
+          ["su1r","su2r"],
+          //widthwise
+          ["su1r","su1"],
+          ["su2r","su2"],
+          ["su1l","su1"],
+          ["su2l","su2"],
+
+          //surficial crossing
+          {"deformLimitExpansion":""},
+          {"beamDeform":23500,"beamStrength":"FLT_MAX"},
+          ["su2l","su1"],
+          ["su2r","su1"],
+          ["su1l","su2"],
+          ["su1r","su2"],
+
+          //rigids
+          {"beamSpring":1300600,"beamDamp":150},
+          {"beamDeform":15000,"beamStrength":"FLT_MAX"},
+          //widthwise
+          ["su1r","su1l"],
+          ["su2r","su2l"],
+          
+          ["su1r","su2l"],
+          ["su2r","su1l"],
+
+          //rigidifier
+          {"beamSpring":301000,"beamDamp":350},
+          {"beamDeform":55000,"beamStrength":5000},
+          {"deformGroup":"sunroof_break", "deformationTriggerRatio":0.06},
+          {"breakGroup":"sunroof_break"},
+          ["su3","su1r"],
+          ["su3","su1"],
+          ["su3","su1l"],
+
+          ["su3","su2r"],
+          ["su3","su2"],
+          ["su3","su2l"],
+          {"deformGroup":""},
+
+          //hinge
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+          {"beamSpring":1201000,"beamDamp":245},
+          {"beamDeform":55000,"beamStrength":35000},
+          {"breakGroupType":0},
+          {"breakGroup":"sunroof"},
+          //r
+          ["su1r","rf2r"],
+          ["su1r","rf1r"],
+          ["su1r","rf1"],
+          ["su1r","rf3r"],
+          ["su1r","rf3"],
+          ["su1r","rf5"],
+
+          //l
+          ["su1l","rf2l"],
+          ["su1l","rf1l"],
+          ["su1l","rf1"],
+          ["su1l","rf3l"],
+          ["su1l","rf3"],
+          ["su1l","rf5"],
+
+          {"breakGroup":""},
+
+          //support beams
+          {"beamType":"|SUPPORT", "beamLongBound":12},
+          {"beamSpring":1523050,"beamDamp":145},
+          {"beamDeform":23500,"beamStrength":1250000},
+          {"breakGroup":"sunroof"},
+          ["rf5","su2r"],
+          ["rf5","su2l"],
+          ["rf5","su2"],
+
+          {"breakGroup":""},
+          //limiter
+          {"beamPrecompression":1, "beamType":"|BOUNDED", "beamLongBound":1.01, "beamShortBound":1},
+          {"beamSpring":0,"beamDamp":10},
+          {"beamLimitSpring":601000,"beamLimitDamp":500},
+          {"beamDeform":3000,"beamStrength":10000},
+
+          ["su2", "rf3"],
+
+          //attach coupler node
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"beamSpring":601000,"beamDamp":60},
+          {"beamDeform":15000,"beamStrength":75000},
+          ["rf3l", "su4"],
+          ["rf3", "su4"],
+          ["rf3r", "su4"],
+
+          ["rf2l", "su4"],
+          ["rf2", "su4"],
+          ["rf2r", "su4"],
+
+          ["rf1l", "su4"],
+          ["rf1", "su4"],
+          ["rf1r", "su4"],
+
+          //opening springs
+          {"beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0}
+          {"beamSpring":6210,"beamDamp":250},
+          {"beamDeform":4000,"beamStrength":10000},
+          {"beamPrecompression":1.25},
+          {"breakGroup":"sunroof"},
+          ["su2r", "rf3r"],
+          ["su2l", "rf3l"],
+          {"breakGroup":""},
+
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"deformLimitExpansion":1.1},
+
+    ],
+    "triangles": [
+            ["id1:","id2:","id3:"],
+            {"group":"jbs_sunroof_glass"},
+            {"dragCoef":10},
+            ["su1r","su1","su2"],
+            ["su2","su2r","su1r"],
+            ["su2","su1","su1l"],
+            ["su1l","su2l","su2"],
+            {"group":""},
+    ],
+},
+
+// quarterpanels
+"jbs_quarterpanel_a": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Standard Quarterpanel",
+        "value":350,
+    },
+    "slotType" : "jbs_quarterpanels",
+    "slots": [
+        ["type", "default", "description"],
+        ["jbs_fenderflares","", "Rear Fender Flares"],
+    ],
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_quarter_s90_type_a", ["jbs_body"]],
+    ],
+},
+"jbs_quarterpanel_b": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rolled Quarterpanel",
+        "value":350,
+    },
+    "slotType" : "jbs_quarterpanels",
+    "slots": [
+        ["type", "default", "description"],
+        ["jbs_fenderflares_wide","", "Rear Fender Flares"],
+    ],
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_quarter_s90_type_b", ["jbs_body"]],
+    ],
+},
+"jbs_quarterpanel_s100_a": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Standard Quarterpanel",
+        "value":350,
+    },
+    "slotType" : "jbs_quarterpanels_s100",
+    "slots": [
+        ["type", "default", "description"],
+        ["jbs_fenderflares_s100","", "Rear Fender Flares"],
+    ],
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_quarter_s100_type_a", ["jbs_body"]],
+    ],
+},
+"jbs_quarterpanel_s100_b": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rolled Quarterpanel",
+        "value":350,
+    },
+    "slotType" : "jbs_quarterpanels_s100",
+    "slots": [
+        ["type", "default", "description"],
+        ["jbs_fenderflares_s100_wide","", "Rear Fender Flares"],
+    ],
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["jbs_quarter_s100_type_b", ["jbs_body"]],
+    ],
+},
+}

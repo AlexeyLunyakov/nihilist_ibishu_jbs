@@ -1,0 +1,21 @@
+{
+"jbs_tuner_gauges": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Tuner Gauges (v1)",
+        "value":300,
+    },
+    "slotType" : "jbs_interior_add_gauges",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["jbs_tuner_gauges", ["jbs_dash"]],
+    ],
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+		["boost", "jbs_boostgauge_needle", "f1l","f1r","fu6l", {"x":-109, "y":0, "z":10.5}, {"x":0, "y":0, "z":160}     , {"x":0, "y":0, "z":0}, 0, 360, 19, 0.04],
+		["watertemp",  "jbs_grp_gauges_needle_temp_rhd",    "dsh2r","dsh2rr","dsh1r", {"x":90, "y":180, "z":0},  {"x":0, "y":0, "z":-1.80},  {"x":0, "y":0, "z":0}, 60, 130, -90, 1],
+        ["oiltemp",    "jbs_grp_gauges_needle_oil_rhd",     "dsh2r","dsh2rr","dsh1r", {"x":90, "y":180, "z":0},  {"x":0, "y":0, "z":-1.3},   {"x":0, "y":0, "z":0}, 60, 150, -102, 1],
+        ["volt",       "jbs_grp_gauges_needle_volt_rhd",    "dsh2r","dsh2rr","dsh1r", {"x":90, "y":180, "z":0},  {"x":0, "y":0, "z":0},    {"x":0, "y":0, "z":0}, 8, 16, 0, 1],
+    ],
+},
+}
