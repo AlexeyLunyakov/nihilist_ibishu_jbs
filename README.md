@@ -5,6 +5,18 @@ Hello everyone!
 
 I publish a car inspired by the idea of ​​the classic JBX100 mod by AX53. A sport sedan straight from the 90s, a purebred Japanese, which was released only on the domestic market. Made it serial to combine several generations in one mod. Modeled from scratch, based on the restyled Ibishu BX-Series. On official forum - mod was removed, so this is the repo (updates mb will be here too)
 
+### Install
+Download the repository archive, unzip it and inside the folder where you will see art, assets and vehicles - pack it with the name of this folder.
+The final archive tree:
+```bash
+├── nihilist_ibishu_jbs.zip
+│   ├── art
+│   ├── assets
+│   └── vehicles
+│       └── ibishu_jbs
+│           └── etc
+│           └── ...
+```
 ---
 ### Lore
 
